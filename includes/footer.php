@@ -7,7 +7,7 @@
 
       <div class="col-lg-3 col-md-6 footer-contact">
         <h3>MyPiole</h3>
-        <p><p>Become A Real Estate Agent</p>
+        <p><p>Become A Real Estate Agent <br>Earn Money with your Generosity</p>
           Douala, <br>
           Cameroon <br><br>
           <strong>Phone:</strong> +237 6 54 21 78 14<br>
