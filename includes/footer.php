@@ -31,7 +31,7 @@
         <ul>
           <li><i class="bx bx-chevron-right"></i> <a href="#">House Relocation </a></li>
           <li><i class="bx bx-chevron-right"></i> <a href="#">Relocation services</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Real Estate Agent</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#">Property sales</a></li>
           <li><i class="bx bx-chevron-right"></i> <a href="#">Magasin Relocation</a></li>
           <li><i class="bx bx-chevron-right"></i> <a href="#">Shop, Office Relocation</a></li>
         </ul>
