@@ -10,7 +10,7 @@
         <p><p>Become A Real Estate Agent <br>Earn Money with your Generosity</p>
           Douala, <br>
           Cameroon <br><br>
-          <strong>Phone:</strong> +237 6 54 21 78 14<br>
+          <strong>Phone:</strong> +237 654217814<br>
           <strong>Email:</strong> info@mypiole.com<br>
         </p>
       </div>
@@ -70,15 +70,15 @@
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
 <!-- Vendor JS Files -->
-<script src="../statics/vendor/aos/aos.js"></script>
-<script src="../statics/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="../statics/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="../statics/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="../statics/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="../statics/vendor/php-email-form/validate.js"></script>
+<script src="statics/vendor/aos/aos.js"></script>
+<script src="statics/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="statics/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="statics/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="statics/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="statics/vendor/php-email-form/validate.js"></script>
 
 <!-- Template Main JS File -->
-<script src="../statics/js/main.js"></script>
+<script src="statics/js/main.js"></script>
 
 </body>
 
