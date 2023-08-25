@@ -709,6 +709,7 @@ a.plyr__control:before {
   -moz-transition: box-shadow 0.3s ease;
   transition: box-shadow 0.3s ease;
   -moz-user-select: none;
+  -webkit-user-select: none;
   user-select: none;
 }
 
@@ -759,6 +760,7 @@ a.plyr__control:before {
   -ms-transition: box-shadow 0.3s ease;
   transition: box-shadow 0.3s ease;
   -ms-user-select: none;
+  -webkit-user-select: none;
   user-select: none;
 }
 
@@ -775,6 +777,7 @@ a.plyr__control:before {
   -ms-transition: box-shadow 0.3s ease;
   transition: box-shadow 0.3s ease;
   -ms-user-select: none;
+  -webkit-user-select: none;
   user-select: none;
 }
 
