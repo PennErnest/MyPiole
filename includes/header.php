@@ -1,4 +1,5 @@
 <!-- ======= Header ======= -->
+
 <div class="header-annotation">
     <div class="social-network">
         <div>Follow Us</div>
@@ -17,20 +18,19 @@
     </div>
 </div><!--  Header Top  -->
 <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
+  <div class="container d-flex align-items-center justify-content-between">
 
-      <div class="logo">
-        <h1><a href="index.php">MyPiole</a></h1>
-       
-      </div>
+    <div class="logo">
+        <h1><a class="logo-icon" href="<?=$root?>">MyPiole</a></h1>
+    </div>
 
-      <nav id="navbar" class="navbar">
+    <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
           <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="about/">About MyPiole</a></li>
-              <li><a href="about/team.php">About Our Team</a></li>
+              <li><a href="">About MyPiole</a></li>
+              <li><a href="">About Our Team</a></li>
               <li><a class="nav-link scrollto " href="portfolio/">Our Portfolio</a></li>  
             </ul>
              
@@ -60,7 +60,7 @@
           <li id="Search-Link"><a class="nav-link"> <span>Search</span><i class="bi-search" id="Search-Button" ></i></a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+    </nav><!-- .navbar -->
 
-    </div>
-  </header><!-- End Header -->
+  </div>
+</header><!-- End Header -->

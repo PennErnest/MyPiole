@@ -1,5 +1,5 @@
 <!-- Favicons -->
-<link href="statics/img/logo.jpg" rel="icon">
+<link href="<?=$root?>statics/img/logo.jpg" rel="icon">
 <!-- <link href="statics/img/logo.jpg" rel="apple-touch-icon"> -->
 
 <!-- Google Fonts -->
@@ -11,9 +11,16 @@
 <link href="<?=$root?>statics/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
 <link href="<?=$root?>statics/vendor/bootstrap-icons/style-starter.css" rel="stylesheet">
 <link href="<?=$root?>statics/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+<link href="<?=$root?>statics/vendor/boxicons/css/boxicons.css" rel="stylesheet">
 <link href="<?=$root?>statics/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 <link href="<?=$root?>statics/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
 <!-- Template Main CSS File -->
-<link href="<?=$root?>statics/css/style11.css" rel="stylesheet">
-<link href="<?=$root?>statics/css/style14.css" rel="stylesheet">
+<link href="<?=$root?>statics/css/style.css" rel="stylesheet">
+<link href="<?=$root?>statics/css/style27.css" rel="stylesheet">
+
+<!-- Template Main Script File -->
+<!-- 
+    <script src="<?=$root?>statics/js/index.js" defer></script>
+    Relocate it in the site - index.html Header .
+ -->

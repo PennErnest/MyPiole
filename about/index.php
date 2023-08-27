@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About MyPiole</title>
-    <?php $root = "../" ?>
+    <?php 
+        $root = "../" 
+    ?>
+    
     <?php include("../includes/headerlinks.php");?>
-    <link rel="stylesheet" href="about.css">
+
+    <link rel="stylesheet" href="/style/about.css">
+    <script src="./script/index.js" defer></script>
+
 </head>
 <body>
 
