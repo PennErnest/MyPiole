@@ -10,7 +10,7 @@
         <p><p>Become A Real Estate Agent <br>Earn Money with your Generosity</p>
           Douala, <br>
           Cameroon <br><br>
-          <strong>Phone:</strong> +237 654217814<br>
+          <strong>Phone:</strong> +237 654 21 78 14<br>
           <strong>Email:</strong> info@mypiole.com<br>
         </p>
       </div>
@@ -41,7 +41,7 @@
         <h4>Join Our Newsletter</h4>
         <p>Get notified of upcoming events.</p>
         <form action="" method="post">
-          <input type="email" name="email" placeholder="Enter Your Email Address here!!!"><input type="submit" value="Subscribe">
+          <input type="email" name="email" placeholder=" Enter your email address here !!! "><input type="submit" value="Subscribe">
         </form>
       </div>
 

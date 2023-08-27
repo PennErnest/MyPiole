@@ -1,0 +1,623 @@
+/*--------------------------------------------------------------
+# Css variables
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  overflow-x: hidden !important;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.header-annotation {
+  display: flex;
+  color: white;
+  align-items: center;
+  width: 100% !important;
+  padding: 13px 60px;
+  background-color: #ff5821;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2588235294);
+}
+.header-annotation .social-network {
+  display: flex;
+  gap: 16px;
+}
+.header-annotation .social-network > div {
+  margin-right: 11px;
+}
+.header-annotation .social-network a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease-out;
+}
+.header-annotation .social-network a:nth-of-type(1):hover {
+  color: orangered !important;
+  text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.28) !important;
+}
+.header-annotation .social-network a:nth-of-type(2):hover {
+  color: blue !important;
+  text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.28) !important;
+}
+.header-annotation .social-network a:nth-of-type(3):hover {
+  color: rgb(6, 143, 248) !important;
+  text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.28) !important;
+}
+.header-annotation .social-network a:nth-of-type(4):hover {
+  color: red !important;
+  text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.28) !important;
+}
+.header-annotation .social-network span {
+  cursor: pointer;
+}
+.header-annotation .phone-number {
+  display: flex;
+  gap: 37px;
+}
+.header-annotation .phone-number a {
+  text-decoration: none;
+  color: white;
+}
+.header-annotation .phone-number span {
+  font-size: 14px;
+  display: inline-block;
+  margin-left: 7px;
+}
+
+#Search-Link {
+  display: flex !important;
+  cursor: pointer;
+}
+#Search-Link span {
+  display: none !important;
+}
+
+#header {
+  transition: all 0.3s ease-out !important;
+  background-color: white;
+}
+#header.scroll70 {
+  background-color: transparent;
+}
+#header.scroll70 .dropdown ul a {
+  color: #635551 !important;
+}
+#header.scroll70 .dropdown ul a:hover, #header.scroll70 .dropdown ul a.active {
+  color: #ff5821 !important;
+}
+#header.scroll70 a, #header.scroll70 .bi-list {
+  color: white !important;
+}
+#header.scroll70 a:hover, #header.scroll70 a.active, #header.scroll70 .bi-list:hover, #header.scroll70 .bi-list.active {
+  color: #ff5821 !important;
+}
+#header.sticky {
+  position: sticky;
+  top: 0px;
+}
+
+.logo a:hover {
+  color: #6e6e6e !important;
+}
+
+/*--------------------------------------------------------------
+# Responsive Properties
+--------------------------------------------------------------*/
+/**
+* Pad View 
+*/
+@media screen and (max-width: 980px) {
+  .header-annotation {
+    display: none;
+  }
+  #Search-Link {
+    display: flex !important;
+    cursor: pointer;
+  }
+  #Search-Link span {
+    display: inline-block !important;
+  }
+  #header {
+    position: sticky !important;
+    top: 0px !important;
+    transition: all 0.3s ease-out !important;
+    background-color: white;
+  }
+  #header.scroll70 {
+    background-color: transparent;
+  }
+  #header.scroll70 a {
+    color: #635551 !important;
+  }
+  #header.scroll70 a:hover, #header.scroll70 a.active {
+    color: #ff5821 !important;
+  }
+  #header.scroll70 .bi-list {
+    color: white !important;
+  }
+  #header.scroll70 a.logo-icon {
+    color: white !important;
+  }
+  #header.scroll70 a.logo-icon:hover {
+    color: #ff5821 !important;
+  }
+  #header.scroll70 .dropdown ul a {
+    color: #635551 !important;
+  }
+  #header.scroll70 .dropdown ul a:hover, #header.scroll70 .dropdown ul a.active {
+    color: #ff5821 !important;
+  }
+}
+/*--------------------------------------------------------------
+# Responsive Properties
+--------------------------------------------------------------*/
+/**
+* Mobile View 
+*/
+/*--------------------------------------------------------------
+# Slider
+--------------------------------------------------------------*/
+.Container-Slider {
+  display: flex;
+  width: 100% !important;
+  height: 107vh;
+  transition: all 0.3s ease-out;
+}
+.Container-Slider.scrollTop70 {
+  animation: sliderScrollTop70 0.3s ease-out 0s forwards;
+}
+.Container-Slider .Slider {
+  position: relative;
+  height: inherit;
+  width: 100% !important;
+  overflow: hidden;
+}
+.Container-Slider .Slider .Slider-Banners {
+  position: relative;
+  height: inherit;
+}
+.Container-Slider .Slider .Slider-Banners .Banner {
+  height: inherit;
+}
+.Container-Slider .Slider .Slider-Banners .Banner .annotation {
+  position: absolute;
+  color: white;
+  bottom: 100px;
+  left: 70px;
+}
+.Container-Slider .Slider .Slider-Banners .Banner:nth-child(1) {
+  background: radial-gradient(circle, transparent, rgba(21, 21, 21, 0.65)), url("../images/1.jpg") center/cover;
+}
+.Container-Slider .Slider .Slider-Banners .Banner:nth-child(2) {
+  background: radial-gradient(circle, transparent, rgba(21, 21, 21, 0.65)), url("../images/2.jpg") center/cover;
+}
+.Container-Slider .Slider .Slider-Banners .Banner:nth-child(3) {
+  background: radial-gradient(circle, transparent, rgba(21, 21, 21, 0.65)), url("../images/3.jpg") center/cover;
+}
+.Container-Slider .Slider .Slider-Banners .Banner:nth-child(4) {
+  background: radial-gradient(circle, transparent, rgba(21, 21, 21, 0.65)), url("../images/4.jpg") center/cover;
+}
+.Container-Slider .Slider .Slider-Banners .Banner:nth-child(5) {
+  background: radial-gradient(circle, transparent, rgba(21, 21, 21, 0.65)), url("../images/5.jpg") center/cover;
+}
+.Container-Slider .Slider .Slider-Banners .Banner:nth-child(6) {
+  background: radial-gradient(circle, transparent, rgba(21, 21, 21, 0.65)), url("../images/6.jpg") center/cover;
+}
+.Container-Slider .Slider .Slider-Banners .Banner:nth-child(7) {
+  background: radial-gradient(circle, transparent, rgba(21, 21, 21, 0.65)), url("../images/7.jpg") center/cover;
+}
+.Container-Slider .Slider .Slider-Controls {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  bottom: 44vh;
+}
+.Container-Slider .Slider .Slider-Controls .Buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 27px;
+  transform: translateY(7px);
+}
+.Container-Slider .Slider .Slider-Controls .Buttons span {
+  cursor: pointer;
+  color: whitesmoke;
+}
+.Container-Slider .Slider .Slider-Controls .Dots {
+  display: flex;
+  gap: 7px;
+  width: 25%;
+  transform: translateY(231px);
+  margin: auto;
+  justify-content: center;
+}
+.Container-Slider .Slider .Slider-Controls .Dots span {
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #a4a4a4;
+  display: inline-block;
+  box-shadow: -1px -3px 4px 1px rgba(4, 4, 4, 0.2509803922);
+}
+.Container-Slider .Slider .Slider-Controls .Dots span.On {
+  background-color: #473d3a;
+}
+.Container-Slider .Search-PopUp {
+  width: 40vw;
+  height: 63vh;
+  display: none;
+  padding: 40px;
+  top: 23vh;
+  right: 6vw;
+  position: fixed;
+  background-color: white;
+  z-index: 23;
+  border-radius: 4px;
+  box-shadow: -1px 1px 3px 1px rgba(0, 0, 0, 0.11);
+}
+.Container-Slider .Search-PopUp .Box.Research {
+  margin-bottom: 20px;
+  position: relative;
+}
+.Container-Slider .Search-PopUp .Box.Research input {
+  border-radius: 4px;
+  color: #635551 !important;
+}
+.Container-Slider .Search-PopUp .Box.Research input + .Search {
+  position: absolute;
+  right: 0px;
+  position: absolute;
+  top: 0px;
+  padding: 10px 16px;
+  background-color: #ff5821;
+  color: white !important;
+  right: 0px;
+  cursor: pointer;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.Container-Slider .Search-PopUp .Box.Research input + .Search:hover {
+  background-color: #ff774a;
+}
+.Container-Slider .Search-PopUp .Box.Actions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+.Container-Slider .Search-PopUp .Box .Controls > select, .Container-Slider .Search-PopUp .Box .Controls > input, .Container-Slider .Search-PopUp .Box button {
+  width: 100%;
+  padding: 10px 16px;
+  padding-right: 37px;
+  border: 1px solid rgba(0, 0, 0, 0.11);
+  color: #635551 !important;
+  border-radius: 4px;
+}
+.Container-Slider .Search-PopUp .Box button {
+  background-color: #ff5821;
+  color: white !important;
+}
+.Container-Slider .Search-PopUp .Box button:hover {
+  background-color: #ff774a;
+}
+
+/*--------------------------------------------------------------
+# Css Animations
+--------------------------------------------------------------*/
+@keyframes sliderScrollTop70 {
+  0% {
+    margin-top: 0px !important;
+  }
+  75% {
+    background-color: transparent;
+    color: white;
+  }
+  100% {
+    height: calc(107vh + 70px);
+  }
+}
+/*--------------------------------------------------------------
+# Responsive Properties
+--------------------------------------------------------------*/
+/**
+* Pad View 
+*/
+@media screen and (max-width: 1180px) {
+  .Container-Slider .Search-PopUp {
+    width: 50vw;
+  }
+}
+@media screen and (max-width: 980px) {
+  .Container-Slider .Search-PopUp {
+    width: 60vw;
+  }
+}
+@media screen and (max-width: 780px) {
+  .Container-Slider .Search-PopUp {
+    width: 70vw;
+  }
+}
+@media screen and (max-width: 780px) {
+  .Container-Slider .Search-PopUp {
+    width: 85vw;
+    right: 7.5vw;
+  }
+}
+/*--------------------------------------------------------------
+# Responsive Properties
+--------------------------------------------------------------*/
+/**
+* Mobile View 
+*/
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+.Container {
+  width: 100% !important;
+  height: auto;
+  padding: 6% 7%;
+}
+.Container .title {
+  text-align: center;
+  width: 70%;
+  margin: 0px auto 70px;
+}
+.Container .title h1 {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.Container.Soft {
+  background-color: #f4f6fd;
+}
+.Container .Content {
+  margin-top: 20px;
+}
+.Container.Popular-Locations .annotation {
+  color: #6e6e6e;
+}
+.Container.Popular-Locations .Content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 23px;
+}
+.Container.Popular-Locations .Content .card {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.Container.Popular-Locations .Content .card:hover .overlay {
+  display: block;
+}
+.Container.Popular-Locations .Content .card:hover .reference {
+  transform: translateY(-33px);
+}
+.Container.Popular-Locations .Content .card img.illustration {
+  height: 230px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.Container.Popular-Locations .Content .card .overlay {
+  position: absolute;
+  display: none;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, transparent, black);
+}
+.Container.Popular-Locations .Content .card .reference {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  left: 11px;
+  bottom: 11px;
+  gap: 6px;
+  color: white;
+  z-index: 7;
+  transition: all 0.3s ease-out;
+}
+.Container.Popular-Locations .Content .card .reference a {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+.Container.Our-Offers {
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("../images/2.jpg") center/cover;
+  color: white;
+}
+.Container.Our-Offers .Content {
+  display: flex;
+  gap: 20px;
+}
+.Container.Our-Offers .Content p {
+  margin-bottom: 10px;
+}
+.Container.Our-Offers .Content .stats {
+  margin-top: 40px;
+  display: flex;
+  width: 80%;
+  padding-left: 11px;
+  justify-content: space-between;
+}
+.Container.Our-Offers .Content .stats div > span {
+  display: block;
+  margin-bottom: 3px;
+}
+.Container.Our-Offers .Content .stats div > span:nth-child(1) {
+  font-size: 36px;
+  font-weight: 700;
+}
+.Container.Our-Offers .Content .stats div > span:nth-child(2) {
+  font-size: 20px;
+}
+.Container.Our-Offers .Content .left {
+  flex: 1;
+}
+.Container.Our-Offers .Content .left .content-title {
+  font-size: xxx-large;
+  margin-bottom: 10px;
+}
+.Container.Our-Offers .Content .right {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 23px;
+}
+.Container.Our-Offers .Content .right > div {
+  padding: 26px;
+  padding-bottom: 40px;
+  border-radius: 4px;
+  background-color: black;
+}
+.Container.Our-Offers .Content .right > div .icon {
+  font-size: 32px;
+  color: #ff5821;
+  margin-bottom: 20px;
+}
+.Container.Our-Offers .Content .right > div .hint {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+.Container.Our-Offers .Content .right > div:hover {
+  background-color: white;
+}
+.Container.Our-Offers .Content .right > div:hover .hint {
+  color: white;
+}
+.Container.Our-Offers .Content .right > div:hover p {
+  color: #6e6e6e;
+}
+.Container.Properties-For-Sale .annotation {
+  color: #6e6e6e;
+}
+.Container.Properties-For-Sale .Content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 23px;
+}
+.Container.Properties-For-Sale .Content h3 a {
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 23px;
+  color: #6e6e6e;
+}
+.Container.Properties-For-Sale .Content h3 a:hover {
+  color: #ff5821;
+}
+.Container.Properties-For-Sale .Content .card {
+  overflow: hidden;
+}
+.Container.Properties-For-Sale .Content .card img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.Container.Properties-For-Sale .Content .card figcaption {
+  padding: 20px;
+  padding-bottom: 20px;
+}
+.Container.Properties-For-Sale .Content .card figcaption h3 {
+  margin-bottom: 7px;
+}
+.Container.Properties-For-Sale .Content .card figcaption .price {
+  color: #6e6e6e;
+  font-size: 16.7px;
+}
+.Container.Properties-For-Sale .Content .card figcaption .separator {
+  width: 100%;
+  margin: 32px auto;
+  height: 1px;
+  background-color: rgba(110, 110, 110, 0.1215686275);
+}
+.Container.Properties-For-Sale .Content .card figcaption .infos {
+  display: flex;
+  gap: 16px;
+}
+.Container.Properties-For-Sale .Content .card figcaption .infos .icon {
+  color: #ff5821;
+  margin-right: 5px;
+}
+.Container.Properties-For-Sale .Content .card .annotations {
+  position: absolute;
+  top: 11px;
+  right: 14px;
+}
+.Container.Properties-For-Sale .Content .card .annotations span {
+  border-radius: 4px;
+  padding: 5px 11px;
+  color: white;
+}
+.Container.Properties-For-Sale .Content .card .annotations span.for-rent {
+  background-color: slategrey;
+}
+.Container.Properties-For-Sale .Content .card .annotations span.for-sale {
+  background-color: rgb(5, 158, 99);
+}
+.Container.Properties-For-Sale .Content .card .annotations span.open-house {
+  background-color: rgb(3, 122, 196);
+}
+.Container.Preferred-Choice {
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("../images/5.jpg") center/cover;
+  color: white;
+}
+/*--------------------------------------------------------------
+# Responsive Properties
+--------------------------------------------------------------*/
+/**
+* Pad View 
+*/
+@media screen and (max-width: 1100px) {
+  .Container.Popular-Locations .Content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 980px) {
+  .Container.Popular-Locations .Content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    padding: 11px 40px;
+  }
+  .Container.Popular-Locations .Content .card img.illustration {
+    height: 180px;
+  }
+  .Container.Our-Offers .Content {
+    flex-direction: column;
+    gap: 60px;
+  }
+  .Container.Properties-For-Sale .Content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 620px) {
+  .Container .title .annotation {
+    text-align: justify;
+  }
+  .Container .Content {
+    text-align: justify;
+  }
+  .Container.Popular-Locations .Content {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding: 0px;
+  }
+  .Container.Popular-Locations .Content .card img.illustration {
+    height: 320px;
+  }
+  .Container.Our-Offers .Content .right {
+    grid-template-columns: 1fr;
+  }
+  .Container.Properties-For-Sale .Content {
+    grid-template-columns: 1fr;
+  }
+}
+/*--------------------------------------------------------------
+# Responsive Properties
+--------------------------------------------------------------*/
+/**
+* Mobile View 
+*//*# sourceMappingURL=style27.css.map */
